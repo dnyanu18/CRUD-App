@@ -1,23 +1,4 @@
-/*import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';  // Import hooks
-import { increment,decrement } from './components/slice'; // Import act } 
 
-
-const Counter = () => {
-  const dispatch = useDispatch();  // Hook to dispatch actions
-  const counterValue = useSelector((state) => state.counter.value);  // Access counter value from the store
-
-  return (
-    <div>
-      <h1>Counter: {counterValue}</h1>
-      <button onClick={() => dispatch(increment())}>Increment</button>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
-    </div>
-  );
-};
-
-export default Counter;
-*/
 
 import "./App.css";
 import React, { useEffect, useState } from "react";
